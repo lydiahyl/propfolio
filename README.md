@@ -26,21 +26,26 @@ This project is built with **Django**, **Python**, **HTML/CSS**, **TailwindCSS**
    cd propfolio
    
 2. **Create VM**:
-python3 -m venv env
-source env/bin/activate
-
-3. **Install Dependencies**:
-pip install -r requirements.txt
-
-4. **Run TailWind CSS (if using CLI):
-npx tailwindcss -i ./input.css -o ./static/css/output.css --watch
-
-5. **Run Development Server**:
-python manage.py runserver
-
-6. **Access the App**:
-Open your browser and go to: http://127.0.0.1:8000/
-
+ ```bash
+   python3 -m venv env
+   source env/bin/activate
+ ```
+4. **Install Dependencies**:
+ ```bash
+   pip install -r requirements.txt
+ ```
+5. **Run TailWind CSS (if using CLI):
+ ```bash
+   npx tailwindcss -i ./input.css -o ./static/css/output.css --watch
+ ```
+7. **Run Development Server**:
+ ```bash
+   python manage.py runserver
+ ```
+9. **Access the App**:
+ ```bash
+   Open your browser and go to: http://127.0.0.1:8000/
+ ```
 ## Screenshots 
 ![image](https://github.com/user-attachments/assets/cb2afd0a-389b-4d66-af01-c45ecbffea29)
 ![image](https://github.com/user-attachments/assets/5383ccbc-ec9b-4009-8d2c-19c21f7b3d02)
