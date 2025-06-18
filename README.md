@@ -21,10 +21,10 @@ This project is built with **Django**, **Python**, **HTML/CSS**, **TailwindCSS**
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository**:
-   ```bash
+```bash
    git clone https://github.com/your-username/propfolio.git
    cd propfolio
-   
+```
 2. **Create VM**:
  ```bash
    python3 -m venv env
